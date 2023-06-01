@@ -105,36 +105,80 @@ Q(t+1)=T′Q(t)+TQ(t)′
 /* write all the steps invloved */
 
 
-
 ### PROGRAM 
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: k sucharitha
+RegisterNumber: 212221240021
 */
+i) SR FLIP FLOP:
+
+module sr(s,r,clock,q,qbar);
+input s,r,clock;
+output q,qbar;
+wire x,y;
+nand(x,s,clock);
+nand(y,r,clock);
+nand(q,x,qbar);
+nand(qbar,y,q);
+endmodule
+
+ii) D FLIP FLOP:
+
+module dflp(D,Clock,Q,Qbar);
+input D,Clock;
+output Q,Qbar;
+assign Dbar = ~D;
+wire X,Y;
+nand (X,D,Clock);
+nand (Y,Dbar,Clock);
+nand (Q,X,Qbar);
+nand (Qbar,Y,Q);
+endmodule
 
 
+iii) JK FLIP FLOP:
 
+module jkflp(J,K,Clock,Q,Qbar);
+input J,Clock,K;
+output Q,Qbar;
+wire S,R;
+nand (S,J,Clock,Qbar);
+nand (R,K,Clock,Q);
+nand (Q,S,Qbar);
+nand (Qbar,R,Q);
+endmodule
 
+iv) T FLIP FLOP:
 
+module tflp(T,Clock,Q,Qbar);
+input T,Clock;
+output Q,Qbar;
+wire A,B;
+nand (A,T,Clock,Qbar);
+nand (B,T,Clock,Q);
+nand (Q,A,Qbar);
+nand (Qbar,B,Q);
+endmodule
 
 ### RTL LOGIC FOR FLIPFLOPS 
-
-
-
-
-
-
-
-
+i) SR FLIP FLOP:
+![output]()
+ii) D FLIP FLOP:
+![output]()
+iii) JK FLIP FLOP:
+![output]()
+iv) T FLIP FLOP:
+![output]()
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
-
-
-
-
-
-
-
+i) SR FLIP FLOP:
+![output]()
+ii) D FLIP FLOP:
+![output]()
+iii) JK FLIP FLOP:
+![output]()
+iv) T FLIP FLOP:
+![output]()
 
 ### RESULTS 
