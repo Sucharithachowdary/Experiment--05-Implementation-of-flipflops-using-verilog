@@ -173,7 +173,7 @@ iv) T FLIP FLOP:
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
 i) SR FLIP FLOP:
-![output]()
+![output](https://github.com/Sucharithachowdary/Experiment--05-Implementation-of-flipflops-using-verilog/blob/main/5%205.png)
 ii) D FLIP FLOP:
 ![output]()
 iii) JK FLIP FLOP:
