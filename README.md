@@ -165,7 +165,7 @@ endmodule
 i) SR FLIP FLOP:
 ![output](https://github.com/Sucharithachowdary/Experiment--05-Implementation-of-flipflops-using-verilog/blob/main/5%201.png)
 ii) D FLIP FLOP:
-![output]()
+![output](https://github.com/Sucharithachowdary/Experiment--05-Implementation-of-flipflops-using-verilog/blob/main/5%202.png)
 iii) JK FLIP FLOP:
 ![output]()
 iv) T FLIP FLOP:
