@@ -163,7 +163,7 @@ endmodule
 
 ### RTL LOGIC FOR FLIPFLOPS 
 i) SR FLIP FLOP:
-![output]()
+![output](https://github.com/Sucharithachowdary/Experiment--05-Implementation-of-flipflops-using-verilog/blob/main/5%201.png)
 ii) D FLIP FLOP:
 ![output]()
 iii) JK FLIP FLOP:
