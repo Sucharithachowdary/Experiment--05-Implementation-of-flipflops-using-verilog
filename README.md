@@ -179,6 +179,9 @@ ii) D FLIP FLOP:
 iii) JK FLIP FLOP:
 ![output](https://github.com/Sucharithachowdary/Experiment--05-Implementation-of-flipflops-using-verilog/blob/main/5%207.png)
 iv) T FLIP FLOP:
-![output]()
+![output](https://github.com/Sucharithachowdary/Experiment--05-Implementation-of-flipflops-using-verilog/blob/main/5%208.png)
 
 ### RESULTS 
+All the flipflops are implementde using verilog and their functionality has been validated using their functional tables.
+
+
