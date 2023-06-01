@@ -102,10 +102,12 @@ Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
 ### Procedure
+```
 /* write all the steps invloved */
-
+```
 
 ### PROGRAM 
+```
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 Developed by: k sucharitha
@@ -160,7 +162,7 @@ nand (B,T,Clock,Q);
 nand (Q,A,Qbar);
 nand (Qbar,B,Q);
 endmodule
-
+```
 ### RTL LOGIC FOR FLIPFLOPS 
 i) SR FLIP FLOP:
 ![output](https://github.com/Sucharithachowdary/Experiment--05-Implementation-of-flipflops-using-verilog/blob/main/5%201.png)
