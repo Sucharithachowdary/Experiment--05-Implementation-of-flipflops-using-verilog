@@ -103,7 +103,13 @@ Q(t+1)=T′Q(t)+TQ(t)′
 
 ### Procedure
 ```
-/* write all the steps invloved */
+/* 1.Using nand gates and wires construct sr flip flop.
+
+2.Repeat same steps to construct JK,D,T flipflops.
+
+3.Find Rtl logic and timing diagram for all flipflops.
+
+4.end the program. */
 ```
 
 ### PROGRAM 
@@ -113,7 +119,7 @@ Program for flipflops  and verify its truth table in quartus using Verilog progr
 Developed by: k sucharitha
 RegisterNumber: 212221240021
 */
-###PROGRAM 1(T FLIP FLOP)
+PROGRAM 1(T FLIP FLOP)
 
 module flipflops(T,clk,Q,Qbar);
 input T,clk;
@@ -129,8 +135,12 @@ end
 endmodule
 ```
 ### RTL LOGIC FOR FLIPFLOPS
-![output]()
+
+![output](https://github.com/Sucharithachowdary/Experiment--05-Implementation-of-flipflops-using-verilog/blob/main/51.png)
+
 ### TIMING DIGRAMS FOR FLIP FLOPS
+
+![output](https://github.com/Sucharithachowdary/Experiment--05-Implementation-of-flipflops-using-verilog/blob/main/52.png)
 
 PROGRAM 2(D FLIP FLOP)
 ```
@@ -148,8 +158,12 @@ end
 endmodule
 ```
 ### RTL LOGIC FOR FLIPFLOPS
+
+![output](https://github.com/Sucharithachowdary/Experiment--05-Implementation-of-flipflops-using-verilog/blob/main/53.png)
+
 ### TIMING DIGRAMS FOR FLIP FLOPS
 
+![output](https://github.com/Sucharithachowdary/Experiment--05-Implementation-of-flipflops-using-verilog/blob/main/54.png)
 
 PROGRAM 3(SR FLIP FLOP)
 ```
@@ -167,7 +181,13 @@ end
 endmodule
 ```
 ### RTL LOGIC FOR FLIPFLOPS
+
+![output](https://github.com/Sucharithachowdary/Experiment--05-Implementation-of-flipflops-using-verilog/blob/main/55.png)
+
 ### TIMING DIGRAMS FOR FLIP FLOPS
+
+![output](https://github.com/Sucharithachowdary/Experiment--05-Implementation-of-flipflops-using-verilog/blob/main/56.png)
+
 PROGRAM 4(JK FLIP FLOP)
 ```
 module flipflops(J,K,clk,Q,Qbar);
@@ -184,8 +204,12 @@ end
 endmodule
 ```
 ### RTL LOGIC FOR FLIPFLOPS
+
+![output](https://github.com/Sucharithachowdary/Experiment--05-Implementation-of-flipflops-using-verilog/blob/main/57.png)
+
 ### TIMING DIGRAMS FOR FLIP FLOPS
 
+![output](https://github.com/Sucharithachowdary/Experiment--05-Implementation-of-flipflops-using-verilog/blob/main/58.png)
 
 
 ### RESULTS 
